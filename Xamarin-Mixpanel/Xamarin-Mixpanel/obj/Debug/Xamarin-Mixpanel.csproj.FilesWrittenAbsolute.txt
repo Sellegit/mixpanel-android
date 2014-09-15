@@ -5,3 +5,9 @@
 /Users/dementrock/Sellegit/peach_mobile/Lib/mixpanel-android/Xamarin-Mixpanel/Xamarin-Mixpanel/obj/Debug/Xamarin-Mixpanel.dll
 /Users/dementrock/Sellegit/peach_mobile/Lib/mixpanel-android/Xamarin-Mixpanel/Xamarin-Mixpanel/obj/Debug/Xamarin-Mixpanel.dll.mdb
 /Users/dementrock/Sellegit/peach_mobile/Lib/mixpanel-android/Xamarin-Mixpanel/Xamarin-Mixpanel/obj/Debug/MonoAndroid,Version=v4.4.AssemblyAttribute.cs
+/Users/xichen/Projects/peach_modile/Lib/mixpanel-android/Xamarin-Mixpanel/Xamarin-Mixpanel/obj/Debug/MonoAndroid,Version=v4.4.AssemblyAttribute.cs
+/Users/xichen/Projects/peach_modile/Lib/mixpanel-android/Xamarin-Mixpanel/Xamarin-Mixpanel/obj/Debug/XamarinMixpanel.obj.Debug.__AndroidLibraryProjects__.zip
+/Users/xichen/Projects/peach_modile/Lib/mixpanel-android/Xamarin-Mixpanel/Xamarin-Mixpanel/bin/Debug/Xamarin-Mixpanel.dll.mdb
+/Users/xichen/Projects/peach_modile/Lib/mixpanel-android/Xamarin-Mixpanel/Xamarin-Mixpanel/bin/Debug/Xamarin-Mixpanel.dll
+/Users/xichen/Projects/peach_modile/Lib/mixpanel-android/Xamarin-Mixpanel/Xamarin-Mixpanel/obj/Debug/Xamarin-Mixpanel.dll
+/Users/xichen/Projects/peach_modile/Lib/mixpanel-android/Xamarin-Mixpanel/Xamarin-Mixpanel/obj/Debug/Xamarin-Mixpanel.dll.mdb

@@ -8,3 +8,6 @@ docs
 *.iml
 .idea
 build/
+
+Xamarin-Mixpanel/Xamarin-Mixpanel/obj/*
+Xamarin-Mixpanel/Xamarin-Mixpanel/bin/*
