@@ -1,0 +1,19 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+<!--  <<remove-node path="/api/package[@name='com.mixpanel.android.mpmetrics']/class[@name='UpdateDisplayState.DisplayState.InAppNotificationState']/method[@name='writeToParcel']" />-->
+<!--  <attr path="/api/package[@name='com.mixpanel.android.mpmetrics']/class[@name='UpdateDisplayState.DisplayState.InAppNotificationState']/method[@name='writeToParcel']" name="hidden">true</attr>
+  <attr path="/api/package[@name='com.mixpanel.android.mpmetrics']/class[@name='UpdateDisplayState.DisplayState.InAppNotificationState']/method[@name='getType']" name="hidden">true</attr>
+  <remove-node path="/api/package[@name='com.mixpanel.android.mpmetrics']/class[@name='UpdateDisplayState.DisplayState.SurveyState']/method[@name='writeToParcel']" />
+  <remove-node path="/api/package[@name='com.mixpanel.android.mpmetrics']/class[@name='UpdateDisplayState.DisplayState.SurveyState']/method[@name='getType']" />
+  <remove-node path="/api/package[@name='com.mixpanel.android.mpmetrics']/class[@name='UpdateDisplayState.DisplayState']/method[@name='getType']" />-->
+  <remove-node path="/api/package[@name='com.mixpanel.android.mpmetrics']/class[@name='UpdateDisplayState']" />
+  <remove-node path="/api/package[@name='com.mixpanel.android.mpmetrics']/class[@name='InAppNotification']/method[@name='getType']" />
+  <remove-node path="/api/package[@name='com.mixpanel.android.mpmetrics']/class[@name='InAppFragment']" />
+  <remove-node path="/api/package[@name='com.mixpanel.android.surveys']/class[@name='CardCarouselLayout.ChoiceAdapter']" />
+</metadata>
