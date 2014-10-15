@@ -106,3 +106,7 @@ UpgradeLog*.XML
 *.userprefs
 
 .sass-cache
+
+
+Xamarin-Mixpanel/Xamarin-Mixpanel/obj/*
+Xamarin-Mixpanel/Xamarin-Mixpanel/bin/*
