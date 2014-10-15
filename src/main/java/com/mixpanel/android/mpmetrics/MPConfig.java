@@ -138,9 +138,19 @@ public class MPConfig {
         return mEventsEndpoint;
     }
 
+    // Preferred URL for tracking events
+    public void setEventsEndpoint(String value) {
+        mEventsEndpoint = value;
+    }
+
     // Preferred URL for tracking people
     public String getPeopleEndpoint() {
         return mPeopleEndpoint;
+    }
+
+    // Preferred URL for tracking people
+    public void setPeopleEndpoint(String value) {
+        mPeopleEndpoint = value;
     }
 
     // Preferred URL for pulling decide data
@@ -148,20 +158,42 @@ public class MPConfig {
         return mDecideEndpoint;
     }
 
+    // Preferred URL for pulling decide data
+    public void getDecideEndpoint(String value) {
+        mDecideEndpoint = value;
+    }
+
     // Fallback URL for tracking events if post to preferred URL fails
     public String getEventsFallbackEndpoint() {
         return mEventsFallbackEndpoint;
     }
+
+    // Fallback URL for tracking events if post to preferred URL fails
+    public void setEventsFallbackEndpoint(String value) {
+        mEventsFallbackEndpoint = value;
+    }
+
 
     // Fallback URL for tracking people if post to preferred URL fails
     public String getPeopleFallbackEndpoint() {
         return mPeopleFallbackEndpoint;
     }
 
+    // Fallback URL for tracking people if post to preferred URL fails
+    public void setPeopleFallbackEndpoint(String value) {
+        mPeopleFallbackEndpoint = value;
+    }
+
     // Fallback URL for pulling decide data if preferred URL fails
     public String getDecideFallbackEndpoint() {
         return mDecideFallbackEndpoint;
     }
+
+    // Fallback URL for pulling decide data if preferred URL fails
+    public void setDecideFallbackEndpoint(String value) {
+        mDecideFallbackEndpoint = value;
+    }
+
 
     // Check for and show eligible surveys and in app notifications on Activity changes
     public boolean getAutoShowMixpanelUpdates() {
@@ -190,12 +222,12 @@ public class MPConfig {
     private final int mDataExpiration;
     private final boolean mDisableFallback;
     private final boolean mTestMode;
-    private final String mEventsEndpoint;
-    private final String mEventsFallbackEndpoint;
-    private final String mPeopleEndpoint;
-    private final String mPeopleFallbackEndpoint;
-    private final String mDecideEndpoint;
-    private final String mDecideFallbackEndpoint;
+    private String mEventsEndpoint;
+    private String mEventsFallbackEndpoint;
+    private String mPeopleEndpoint;
+    private String mPeopleFallbackEndpoint;
+    private String mDecideEndpoint;
+    private String mDecideFallbackEndpoint;
     private final boolean mAutoShowMixpanelUpdates;
 
     private static MPConfig sInstance;
